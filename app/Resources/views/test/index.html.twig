@@ -1,0 +1,9 @@
+{% extends 'base.html.twig'%}
+{%block body%}
+Hola   
+
+{%for producto in Productos%}
+{{producto.nombre}}
+{{producto.precio}}
+{%endfor%}
+{%endblock%}
